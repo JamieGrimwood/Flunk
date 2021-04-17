@@ -7,3 +7,30 @@ load: STARTUP
 authors: [ Jamie ]
 description: Flunk is a plugins with every command a minecraft server should need.
 website: https://jmgcoding.com
+commands:
+  gmc:
+    description: Sets your gamemode to creative.
+
+  gms:
+    description: Sets your gamemode to survival.
+
+  gma:
+    description: Sets your gamemode to adventure.
+
+  gmsp:
+    description: Sets your gamemode to spectator.
+
+  fly:
+    description: Toggles fly mode.
+
+  kick:
+    description: Kicks a player.
+
+  ban:
+    description: Bans a player.
+
+  unban:
+    description: Unbans a player.
+
+  broadcast:
+    description: Broadcasts a whole message to the server.
