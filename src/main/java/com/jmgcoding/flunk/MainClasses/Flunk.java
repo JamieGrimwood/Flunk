@@ -2,6 +2,7 @@ package com.jmgcoding.flunk.MainClasses;
 
 import com.jmgcoding.flunk.commands.*;
 import com.jmgcoding.flunk.events.BanCheckandJoinQuit;
+import com.jmgcoding.flunk.events.UpdateChecker;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.ConsoleCommandSender;
@@ -16,16 +17,16 @@ public final class Flunk extends JavaPlugin {
 
         loadCommands();
         loadEvents();
-   /*     new UpdateChecker(this, 80918).getVersion(version -> {
+        new UpdateChecker(this, 91429).getVersion(version -> {
             if (this.getDescription().getVersion().equalsIgnoreCase(version)) {
                 logger.info("The plugin is up to date!");
             } else {
-                logger.info("There is a new update available! Get it here: https://www.spigotmc.org/resources/lirus.80918/");
+                logger.info("There is a new update available! Get it here: https://www.spigotmc.org/resources/flunk.91429 /");
             }
-        });*/
+        });
 
         ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage("\n \n§8[]=====[§7Enabling Plugin§8]=====[]"
+        console.sendMessage("\n \n§8[]=====[§7Enabled Plugin!§8]=====[]"
                 + "\n§8| §cInformation:"
                 + "\n§8|   §cName: §7HubEssentials"
                 + "\n§8|   §cDeveloper: §7Jamie_"
@@ -65,7 +66,7 @@ public final class Flunk extends JavaPlugin {
     @Override
     public void onDisable() {
         ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage("\n \n§8[]=====[§7Disabling Plugin§8]=====[]"
+        console.sendMessage("\n \n§8[]=====[§7Disabled Plugin§8]=====[]"
                 + "\n§8| §cInformation:"
                 + "\n§8|   §cName: §7HubEssentials"
                 + "\n§8|   §cDeveloper: §7Jamie_"
