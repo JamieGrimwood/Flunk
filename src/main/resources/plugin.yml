@@ -1,0 +1,9 @@
+name: Flunk
+version: ${project.version}
+main: com.jmgcoding.flunk.MainClasses.Flunk
+api-version: 1.16
+prefix: Flunk
+load: STARTUP
+authors: [ Jamie ]
+description: Flunk is a plugins with every command a minecraft server should need.
+website: https://jmgcoding.com

@@ -1,0 +1,9 @@
+# Here is where you can edit all the parts of the plugin you will need.
+
+BannedPlayers:
+
+BroadcastPrefix: "&c&lBroadcast: &r"
+
+JoinMessage: "&a&lWelcome to the server {player}"
+
+QuitMessage: "&cGoodbye {player}"
